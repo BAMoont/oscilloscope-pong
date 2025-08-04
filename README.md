@@ -1,7 +1,7 @@
 # Pong for an Oscilloscope 
 
 ## Overview
-This project implements a simple Pong game on an embedded system using SPI and ADC peripherals for input and output. The game uses analog inputs (potentiometers) to control the paddles and renders the game graphics through SPI-driven display commands.
+This project implements a simple Pong game on an oscilloscope using SPI and ADC peripherals for input and output. The game uses analog inputs (potentiometers) to control the paddles and renders the game graphics through SPI-driven display commands.
 
 ## Features
 - Reads paddle positions from two analog inputs (ADC channels 4 and 5).
@@ -34,7 +34,5 @@ This project implements a simple Pong game on an embedded system using SPI and A
 ## Usage
 Compile and run on the target embedded system with SPI and ADC peripherals configured as shown. Use connected potentiometers or variable resistors to control paddles.
 
-## License
-This project is provided as-is without any warranty. Use at your own risk.
 
 
